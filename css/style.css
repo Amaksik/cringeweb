@@ -64,6 +64,7 @@
     grid-column: col4-start / col4-end;
     grid-row: row3-start / row6-start;
     background-color: rgb(94, 233, 147);
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
