@@ -1,0 +1,133 @@
+
+.wrapper {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: [col1-start] 1fr [col2-start] 1fr [col3-start] 1fr [col4-start] 1fr [col4-end];
+    grid-template-rows: [row1-start] 1fr [row2-start] 1fr [row3-start] 1fr [row4-start] 1fr [row5-start] 1fr [row6-start] 1fr [row6-end];
+
+    margin: 40px;
+}
+
+
+
+.box {
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+    display: flex;
+    height: auto;
+}
+
+
+.one {
+    grid-column: col1-start / col4-end;
+    background-color: rgb(48, 120, 187);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two {
+    grid-column: col1-start;
+    grid-row: row2-start / row6-start;
+    background-color: rgb(236, 151, 112);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.three {
+    grid-column: col2-start / col3-start;
+    grid-row: row2-start / row6-start;
+    background-color: rgb(94, 233, 147);
+    justify-content: center;
+    align-items: center;
+}
+
+.four {
+    grid-column: col3-start / col4-end;
+    grid-row: row2-start / row3-start;
+    background-color: rgb(236, 151, 112);
+    justify-content: center;
+    align-items: center;
+}
+
+.five {
+    grid-column: col3-start / col4-start;
+    grid-row: row3-start / row6-start;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+.six {
+    grid-column: col4-start / col4-end;
+    grid-row: row3-start / row6-start;
+    background-color: rgb(94, 233, 147);
+    justify-content: center;
+    align-items: center;
+}
+
+.seven {
+    grid-column: col1-start / col4-end;
+    grid-row: row6-start / row6-end;
+    background-color: rgb(48, 120, 187);
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+a .nav-btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+div .nav-btn {
+    text-decoration: none;
+    color: black;   
+    padding: 10px;
+    display: flex;
+    width: 40%;
+    border-radius: 10px;
+    border-width: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn-active {
+    background-color: rgb(100, 100, 100);
+}
+
+.btn-inactive {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+.x {
+    margin-left: 50px;
+    width: 30%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.y {
+    margin-right: 50px;
+    width: 30%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
